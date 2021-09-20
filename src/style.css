@@ -74,6 +74,22 @@ p {
   margin-bottom: 20px;
 }
 
+.about-me-section {
+  padding: 180px 20px;
+}
+
+.about-me-section h1 {
+  font-size: 64px;
+}
+
+.about-me-section h2 {
+  font-size: 18px;
+  font-family: var(--body-font);
+  color: #272142;
+  opacity: 85%;
+  font-weight: normal;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -93,7 +109,6 @@ p {
     text-align: center;
     padding: 90px 10px;
   }
-
   .hero h2 {
     font-size: 20px;
     line-height: 1.5;
