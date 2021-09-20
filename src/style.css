@@ -94,6 +94,10 @@ p {
   opacity: 85%;
 }
 
+.me-photo {
+  border-radius: 11px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
