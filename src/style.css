@@ -90,6 +90,10 @@ p {
   font-weight: normal;
 }
 
+.about-me-section p {
+  opacity: 85%;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
