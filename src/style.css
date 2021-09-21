@@ -70,10 +70,6 @@ p {
   color: var(--branding-color);
 }
 
-
-
-
-
 .about-me-section {
   padding: 180px 20px;
 }
@@ -96,6 +92,20 @@ p {
 
 .me-photo {
   border-radius: 11px;
+}
+
+.projects-page {
+  text-align: center;
+  padding: 180px 20px;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.project-page-description {
+  opacity: 70%;
 }
 
 @media (max-width: 900px) {
