@@ -95,13 +95,17 @@ p {
 }
 
 .projects-page {
-  text-align: center;
   padding: 180px 20px;
+}
+
+.projects-page p {
+text-align: center;
 }
 
 .project-title {
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
 .project-page-description {
@@ -140,5 +144,12 @@ p {
   }
   .about-me-section h1 {
     font-size: 56px;
+  }
+  .projects-page {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .project-page-description {
+    padding-bottom: 30px;
   }
 }
