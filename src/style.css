@@ -100,6 +100,7 @@ p {
 
 .projects-page p {
 text-align: center;
+
 }
 
 .project-title {
@@ -110,6 +111,7 @@ text-align: center;
 
 .project-page-description {
   opacity: 70%;
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
@@ -151,5 +153,6 @@ text-align: center;
   }
   .project-page-description {
     padding-bottom: 30px;
+    
   }
 }
