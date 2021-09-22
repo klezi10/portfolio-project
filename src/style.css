@@ -70,15 +70,15 @@ p {
   color: var(--branding-color);
 }
 
-.about-me-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-me-section h1 {
+.content-container h1 {
   font-size: 64px;
 }
 
-.about-me-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--body-font);
   color: #272142;
@@ -90,31 +90,23 @@ p {
   margin: 30px;
 }
 
-.about-me-section p {
-  opacity: 85%;
+.content-container p {
+  opacity: 70%;
+  font-size: 14px;
 }
 
 .me-photo {
   border-radius: 11px;
 }
 
-.projects-page {
+.content-container {
   padding: 180px 20px;
 }
 
-.projects-page p {
-  text-align: center;
-}
-
-.project-title {
+.content-container h3 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-}
-
-.project-page-description {
-  opacity: 70%;
-  font-size: 14px;
 }
 
 @media (max-width: 900px) {
@@ -140,21 +132,19 @@ p {
     font-size: 20px;
     line-height: 1.5;
   }
-  .about-me-section {
-    text-align: center;
-    padding-top: 20px;
-  }
+
   .me-photo {
     margin-top: 50px;
   }
-  .about-me-section h1 {
-    font-size: 56px;
-  }
-  .projects-page {
+  .content-container {
     text-align: center;
     padding-top: 20px;
   }
-  .project-page-description {
+  .content-container h1 {
+    font-size: 56px;
+  }
+
+  .content-container p {
     padding-bottom: 30px;
   }
 }
