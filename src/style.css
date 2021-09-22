@@ -71,7 +71,7 @@ p {
 }
 
 .about-me-section {
-  padding: 180px 20px;
+  padding: 160px 20px;
 }
 
 .about-me-section h1 {
@@ -99,8 +99,7 @@ p {
 }
 
 .projects-page p {
-text-align: center;
-
+  text-align: center;
 }
 
 .project-title {
@@ -153,6 +152,5 @@ text-align: center;
   }
   .project-page-description {
     padding-bottom: 30px;
-    
   }
 }
