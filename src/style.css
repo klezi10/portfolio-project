@@ -108,11 +108,20 @@ p {
   font-weight: bold;
 }
 
+.nav-link .active {
+  color: var(--branding-color) !important;
+}
+
+.navbar a {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
   }
+
   h1 {
     font-size: 56px;
     line-height: 1.5;
@@ -135,12 +144,13 @@ p {
   .me-photo {
     margin-top: 50px;
   }
+
   .content-container {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 90px;
   }
   .content-container h1 {
-    font-size: 56px;
+    font-size: 45px;
   }
 
   .content-container p {
