@@ -125,6 +125,12 @@ p {
   background: var(--secondary-color);
 }
 
+.wrap {
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
