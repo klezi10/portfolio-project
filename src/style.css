@@ -52,6 +52,12 @@ p {
   font-weight: normal;
 }
 
+.wrap {
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   font-size: 18px;
@@ -112,6 +118,8 @@ p {
   font-weight: bold;
 }
 
+/* NAVBAR */
+
 .nav-link .active {
   color: var(--branding-color) !important;
 }
@@ -120,15 +128,26 @@ p {
   color: var(--secondary-color);
 }
 
+/* FOOTER */
 .contact-box {
-  padding: 50px 180px;
+  padding: 50px 300px;
   background: var(--secondary-color);
 }
 
-.wrap {
-  width: 100%;
-  padding-left: 200px;
-  padding-right: 200px;
+footer .social-links a {
+  color: var(--branding-color);
+  font-size: 25px;
+  border-radius: 50%;
+  background: #f8f9fa;
+  padding: 10px 14px;
+  margin: 0 20px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--branding-color);
+  color: #f8f9fa;
+  transform: translateY(6px);
 }
 
 @media (max-width: 900px) {
