@@ -156,7 +156,7 @@ footer p a:hover {
 
 @media (max-width: 900px) {
   .project-description {
-    padding: 0;
+    padding: 20px 0;
     text-align: center;
   }
 
