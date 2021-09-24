@@ -175,6 +175,12 @@ footer .social-links a:hover {
     line-height: 1.5;
   }
 
+  .wrap {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .me-photo {
     margin-top: 50px;
   }
