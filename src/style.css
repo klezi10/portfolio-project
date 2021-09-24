@@ -52,6 +52,11 @@ p {
   font-weight: normal;
 }
 
+.hero p {
+  color: #272142;
+  opacity: 85%;
+}
+
 .wrap {
   width: 100%;
   padding-left: 200px;
