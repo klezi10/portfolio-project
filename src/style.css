@@ -40,7 +40,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 180px 20px;
+  padding: 120px 20px;
 }
 
 .hero h2 {
@@ -81,7 +81,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -107,10 +107,6 @@ p {
 
 .me-photo {
   border-radius: 11px;
-}
-
-.content-container {
-  padding: 180px 20px;
 }
 
 .content-container h3 {
@@ -168,7 +164,7 @@ footer .social-links a:hover {
   .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 90px 10px;
+    /* padding: 90px 10px; */
   }
   .hero h2 {
     font-size: 20px;
