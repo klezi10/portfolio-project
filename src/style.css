@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--body-font);
+  background: #f8f9fa;
 }
 
 h1,
@@ -121,6 +122,10 @@ p {
 
 /* NAVBAR */
 
+.navbar {
+  background: #f8f9fa;
+}
+
 .nav-link .active {
   color: var(--branding-color) !important;
 }
@@ -139,7 +144,7 @@ footer .social-links a {
   color: var(--branding-color);
   font-size: 18px;
   border-radius: 50%;
-  background: #f8f9fa;
+  background: #eeeeee;
   padding: 10px 14px;
   margin: 0 20px;
   transition: all 150ms ease-in-out;
