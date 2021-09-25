@@ -140,6 +140,16 @@ p {
   background: var(--secondary-color);
 }
 
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
+}
+
 footer .social-links a {
   color: var(--branding-color);
   font-size: 18px;
@@ -155,6 +165,7 @@ footer .social-links a:hover {
   color: #f8f9fa;
   transform: translateY(6px);
 }
+
 footer p a {
   color: var(--branding-color);
   text-decoration: none;
