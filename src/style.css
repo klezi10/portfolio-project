@@ -1,7 +1,7 @@
 :root {
   --heading-font: 'Noto Serif', serif;
   --body-font: 'Poppins', sans-serif;
-  --branding-color: #93329e;
+  --branding-color: #29159c;
   --secondary-color: #e6e2f3;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 48px;
 }
 
 h4 {
