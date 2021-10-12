@@ -149,12 +149,12 @@ p {
 
 .email-link {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 24px;
 }
 
 .email-link:hover {
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 footer .social-links a {
@@ -173,13 +173,22 @@ footer .social-links a:hover {
   transform: translateY(6px);
 }
 
+footer p {
+  margin-bottom: 0;
+}
+
 footer p a {
-  color: var(--branding-color);
-  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+.contact-info {
+  background: var(--branding-color);
+  color: var(--secondary-color);
+  padding-top: 30px;
 }
 
 @media (max-width: 900px) {
