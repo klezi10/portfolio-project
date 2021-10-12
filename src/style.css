@@ -58,11 +58,11 @@ p {
   opacity: 85%;
 }
 
-.wrap {
+/* .wrap {
   width: 100%;
   padding-left: 200px;
   padding-right: 200px;
-}
+} */
 
 .btn-branding {
   background: var(--branding-color);
