@@ -58,11 +58,11 @@ p {
   opacity: 85%;
 }
 
-/* .wrap {
+.wrap {
   width: 100%;
   padding-left: 200px;
   padding-right: 200px;
-} */
+}
 
 .btn-branding {
   background: var(--branding-color);
@@ -81,20 +81,18 @@ p {
 }
 
 .skills img {
-  width: 100px;
+  width: 50px;
 }
 
 .skills p {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--branding-color);
   font-weight: bold;
 }
 
-/* .skills .fab {
-  font-size: 70px;
-  text-align: center;
+h3 .fas {
   color: var(--branding-color);
-} */
+}
 
 .project-description {
   padding: 0 60px 60px;
@@ -236,6 +234,16 @@ footer p a:hover {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .skills img {
+    width: 30px;
+  }
+
+  .skills p {
+    font-size: 12px;
+    color: var(--branding-color);
+    font-weight: bold;
   }
 
   .me-photo {
