@@ -80,6 +80,22 @@ p {
   border: 2px solid var(--branding-color);
 }
 
+.skills img {
+  max-width: 100px;
+}
+
+.skills p {
+  font-size: 20px;
+  color: var(--branding-color);
+  font-weight: bold;
+}
+
+/* .skills .fab {
+  font-size: 70px;
+  text-align: center;
+  color: var(--branding-color);
+} */
+
 .project-description {
   padding: 0 60px 60px;
 }
