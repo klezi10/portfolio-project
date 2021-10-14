@@ -226,9 +226,14 @@ footer p a:hover {
     text-align: center;
     /* padding: 90px 10px; */
   }
+
   .hero h2 {
     font-size: 20px;
     line-height: 1.5;
+  }
+
+  .hero .view-projects {
+    display: none;
   }
 
   .wrap {
