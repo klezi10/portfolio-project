@@ -145,6 +145,10 @@ h3 .fas {
   margin-bottom: 40px;
 }
 
+.projects .fa-react {
+  color: #61dafb;
+}
+
 /* NAVBAR */
 
 .navbar {
