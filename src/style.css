@@ -206,6 +206,7 @@ footer p a {
 
 footer p a:hover {
   text-decoration: underline;
+  color: #be84f5;
 }
 
 .contact-info {
