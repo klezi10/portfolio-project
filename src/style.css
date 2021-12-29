@@ -221,6 +221,10 @@ footer p a:hover {
     text-align: center;
   }
 
+  .content {
+    margin: 0;
+  }
+
   h1 {
     font-size: 56px;
     line-height: 1.5;
