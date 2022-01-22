@@ -1,3 +1,56 @@
+// =====================================NAVBAR=============
+
+const navbar = document.querySelector('.navbar');
+
+navbar.innerHTML = `
+<div class="container">
+        <a class="navbar-brand nav-link" href="index.html" title="Homepage">Klesta</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html" title="Homepage"
+              >Home</a
+            >
+            <a class="nav-link" href="/about.html" title="About Klesta"
+              >About me</a
+            >
+            <a class="nav-link" href="/work.html" title="Klesta's Work">Work</a>
+            <a
+              class="nav-link"
+              href="/index.html#contact"
+              title="Contact Klesta"
+              >Contact me</a
+            >
+          </div>
+        </div>
+      </div>
+`;
+
+function highlightCurrentURL() {
+  let a = document.querySelector('#navbarNav').getElementsByTagName('a');
+  for (let i = 0; i < a.length; i++) {
+    if (a[i].href.split('#')[0] == document.location.href.split('#')[0]) {
+      a[i].className = 'nav-link active';
+    }
+  }
+}
+
+window.onload = function () {
+  highlightCurrentURL();
+};
+
+// ====== FOOTER =====
+
 const footer = document.createElement('footer');
 footer.innerHTML = `
 <div class="contact-box justify-content-between d-none d-lg-flex">
