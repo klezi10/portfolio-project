@@ -83,11 +83,10 @@ footer.innerHTML = `
             ><i class="fab fa-github"></i
           ></a>
           <a
-            href="https://www.linkedin.com"
-            target="_black"
-            title="LinkedIn Profile"
-            ><i class="fab fa-linkedin"></i
-          ></a>
+            href="https://twitter.com/Klesand"
+            target="_blank"
+            title="Twitter Profile"
+            ><i class="fab fa-twitter-square"></i></a>
           <a href="mailto:kles.code@gmail.com" title="Email Klesta"
             ><i class="fas fa-at"></i
           ></a>
