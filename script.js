@@ -103,3 +103,9 @@ footer.innerHTML = `
       </div>
 `;
 document.querySelector('.footer').append(footer);
+
+const form = document.getElementById('form');
+form.addEventListener('submit', function () {
+  event.preventDefault();
+  alert('clicked');
+});
