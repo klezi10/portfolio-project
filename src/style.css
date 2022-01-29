@@ -226,6 +226,42 @@ footer p a:hover {
   padding-top: 30px;
 }
 
+.lets-connect {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form,
+.text-part {
+  width: 50%;
+}
+
+.form input,
+.form .email-btn,
+.form #textarea {
+  border-radius: 3px;
+}
+
+.form #textarea {
+  height: 150px;
+  width: 100%;
+}
+
+.form #textarea,
+.form input {
+  border: 2px solid var(--branding-color);
+  display: block;
+  padding: 0.5rem 0.6rem 0.5rem;
+  margin-bottom: 0.75em;
+  text-align: center;
+}
+
+.form input {
+  font-family: inherit;
+  text-align: inherit;
+  width: 100%;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 20px 0;
