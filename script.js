@@ -27,7 +27,7 @@ navbar.innerHTML = `
             <a class="nav-link" href="/work.html" title="Klesta's Work">Work</a>
             <a
               class="nav-link"
-              href="/index.html#contact"
+              href="/contact.html"
               title="Contact Klesta"
               >Contact me</a
             >
@@ -67,15 +67,8 @@ footer.innerHTML = `
         </div>
       </div>
       <div class="contact-info" id="contact">
-        <div class="d-flex justify-content-center mb-5">
-          <a
-            href="mailto:kles.code@gmail.com"
-            class="email-link"
-            title="Email Klesta"
-            >kles.code@gmail.com</a
-          >
-        </div>
-        <div class="social-links d-flex justify-content-center pb-5">
+        
+        <div class="social-links d-flex justify-content-center pb-4">
           <a
             href="https://github.com/klezi10"
             target="_blank"
@@ -103,17 +96,3 @@ footer.innerHTML = `
       </div>
 `;
 document.querySelector('.footer').append(footer);
-
-// const form = document.getElementById('form');
-// form.addEventListener('submit', function (event) {
-//   const myFormData = new FormData(event.target);
-//   const userName = myFormData.get('name');
-//   const userEmail = myFormData.get('email');
-
-//   const message = `
-//   <h3>Hi ${userName}</h3>
-//   <p>Your message was received. I'll get back to you at ${userEmail}</p>
-//   `;
-
-//   form.innerHTML = message;
-// });

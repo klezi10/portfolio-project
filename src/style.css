@@ -354,4 +354,8 @@ footer p a:hover {
     margin: 0 auto;
     width: 100%;
   }
+
+  .form #textarea {
+    text-align: center;
+  }
 }
