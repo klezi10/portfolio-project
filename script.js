@@ -104,8 +104,16 @@ footer.innerHTML = `
 `;
 document.querySelector('.footer').append(footer);
 
-const form = document.getElementById('form');
-form.addEventListener('submit', function () {
-  event.preventDefault();
-  alert('clicked');
-});
+// const form = document.getElementById('form');
+// form.addEventListener('submit', function (event) {
+//   const myFormData = new FormData(event.target);
+//   const userName = myFormData.get('name');
+//   const userEmail = myFormData.get('email');
+
+//   const message = `
+//   <h3>Hi ${userName}</h3>
+//   <p>Your message was received. I'll get back to you at ${userEmail}</p>
+//   `;
+
+//   form.innerHTML = message;
+// });
