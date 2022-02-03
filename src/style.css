@@ -261,6 +261,13 @@ footer p a:hover {
   width: 100%;
 }
 
+.dev-img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 11px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 20px 0;
@@ -338,5 +345,14 @@ footer p a:hover {
 
   .projects .row {
     margin-bottom: 0;
+  }
+
+  .lets-connect {
+    flex-direction: column;
+  }
+  .form {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
   }
 }
