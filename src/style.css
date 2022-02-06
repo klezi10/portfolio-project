@@ -160,6 +160,14 @@ h3 .fas {
   margin-top: 50px;
 }
 
+.javascriptmas {
+  padding: 80px 240px;
+}
+
+.javascriptmas h1 {
+  text-align: start;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -357,5 +365,17 @@ footer p a:hover {
 
   .form #textarea {
     text-align: center;
+  }
+
+  .javascriptmas {
+    padding: 80px 20px;
+  }
+
+  .javascriptmas h1 {
+    text-align: center;
+  }
+
+  .javascriptmas h3 {
+    padding-top: 10px;
   }
 }
