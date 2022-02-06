@@ -161,11 +161,7 @@ h3 .fas {
 }
 
 .javascriptmas {
-  padding: 80px 240px;
-}
-
-.javascriptmas h1 {
-  text-align: start;
+  padding: 0 240px;
 }
 
 /* NAVBAR */
@@ -368,7 +364,7 @@ footer p a:hover {
   }
 
   .javascriptmas {
-    padding: 80px 20px;
+    padding: 0 20px;
   }
 
   .javascriptmas h1 {
