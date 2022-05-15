@@ -62,7 +62,7 @@ footer.innerHTML = `
           <a
             href="mailto:kles.code@gmail.com"
             class="btn btn-branding shadow mt-3"
-            >Contact me</a
+            >Email me</a
           >
         </div>
       </div>
