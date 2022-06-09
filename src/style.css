@@ -134,6 +134,7 @@ h3 .fas {
 
 .me-photo {
   border-radius: 11px;
+  margin-top: 50px;
 }
 
 .content-container h3 {
@@ -321,9 +322,9 @@ footer p a:hover {
     font-weight: bold;
   }
 
-  .me-photo {
+  /* .me-photo {
     margin-top: 50px;
-  }
+  } */
 
   .content-container {
     text-align: center;
