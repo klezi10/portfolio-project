@@ -85,7 +85,7 @@ footer.innerHTML = `
           ></a>
         </div>
         <p class="text-center">
-          This project was coded by Klesta Luli |
+          This project was coded by Klesta Luli | Hosted on AWS |
           <a
             href="https://github.com/klezi10/portfolio-project"
             title="GitHub"
