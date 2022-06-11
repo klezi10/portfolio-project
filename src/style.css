@@ -217,7 +217,7 @@ footer p {
 }
 
 footer p a {
-  color: var(--secondary-color);
+  color: rgb(146, 146, 245);
 }
 
 footer p a:hover {
