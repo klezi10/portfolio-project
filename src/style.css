@@ -197,10 +197,10 @@ h3 .fas {
 
 footer .social-links a {
   color: var(--branding-color);
-  font-size: 35px;
+  font-size: 16px;
   border-radius: 50%;
   background: #eeeeee;
-  padding: 8px 18px;
+  padding: 6px 12px;
   margin: 0 20px;
   transition: all 150ms ease-in-out;
 }
@@ -354,6 +354,7 @@ footer p a:hover {
   .lets-connect {
     flex-direction: column;
   }
+
   .form {
     display: block;
     margin: 0 auto;
