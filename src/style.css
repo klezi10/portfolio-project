@@ -342,10 +342,10 @@ footer p a:hover {
     font-size: smaller;
   }
 
-  footer .social-links a {
+  /* footer .social-links a {
     font-size: 18px;
     padding: 10px 14px;
-  }
+  } */
 
   .projects .row {
     margin-bottom: 0;
