@@ -56,7 +56,7 @@ footer.innerHTML = `
 <div class="contact-box justify-content-between d-none d-lg-flex">
         <div>
           <h4>Get in Touch</h4>
-          <p class="text-muted">Have questions or want to work together</p>
+          <p class="text-muted">Have questions?</p>
         </div>
         <div>
           <a
