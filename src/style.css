@@ -161,6 +161,10 @@ h3 .fas {
   margin-top: 50px;
 }
 
+.open-source-text {
+  margin-left: 1rem;
+}
+
 .javascriptmas {
   padding: 0 240px;
 }
@@ -276,6 +280,10 @@ footer p a:hover {
   .project-description {
     padding: 20px 0;
     text-align: center;
+  }
+
+  .open-source-text {
+    margin-left: 0;
   }
 
   .content {
