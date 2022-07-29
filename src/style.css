@@ -277,6 +277,13 @@ footer p a:hover {
 }
 
 @media (max-width: 900px) {
+  .open-source-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
   .project-description {
     padding: 20px 0;
     text-align: center;
@@ -284,6 +291,10 @@ footer p a:hover {
 
   .open-source-text {
     margin-left: 0;
+  }
+
+  .open-source-text h3 {
+    margin-top: 15px;
   }
 
   .content {
