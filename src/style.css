@@ -124,7 +124,7 @@ h3 .fas {
 }
 
 .content {
-  margin: 40px 100px;
+  margin: 40px 50px;
 }
 
 .content-container p {
@@ -278,7 +278,10 @@ footer p a:hover {
   border-radius: 11px;
 }
 
-
+.about-section {
+  display: flex;
+  align-items: center;
+}
 
 @media (max-width: 900px) {
   .open-source-section {
@@ -404,6 +407,7 @@ footer p a:hover {
   .javascriptmas h3 {
     padding-top: 10px;
   }
+  
 }
 
 @media (min-width: 760px) {
