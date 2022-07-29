@@ -156,9 +156,15 @@ h3 .fas {
   font-weight: bold;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  max-width: 500px;
+  /* max-width: 500px; */
+  /* text-align: center; */
   padding: 30px 0;
   margin-top: 50px;
+}
+
+.open-source-text {
+  margin-left: 1rem;
+  text-align: left;
 }
 
 .javascriptmas {
@@ -272,10 +278,28 @@ footer p a:hover {
   border-radius: 11px;
 }
 
+
+
 @media (max-width: 900px) {
+  .open-source-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
   .project-description {
     padding: 20px 0;
     text-align: center;
+  }
+
+  .open-source-text {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .open-source-text h3 {
+    margin-top: 15px;
   }
 
   .content {
@@ -351,6 +375,10 @@ footer p a:hover {
     margin-bottom: 0;
   }
 
+  .projects h2 {
+    font-size: 2rem;
+  }
+
   .lets-connect {
     flex-direction: column;
   }
@@ -375,5 +403,15 @@ footer p a:hover {
 
   .javascriptmas h3 {
     padding-top: 10px;
+  }
+}
+
+@media (min-width: 760px) {
+  .open-source-section {
+    align-items: center;
+  }
+  
+  .open-source-text {
+    text-align: left;
   }
 }
