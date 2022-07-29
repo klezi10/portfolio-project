@@ -163,6 +163,7 @@ h3 .fas {
 
 .open-source-text {
   margin-left: 1rem;
+  text-align: left;
 }
 
 .javascriptmas {
@@ -276,6 +277,8 @@ footer p a:hover {
   border-radius: 11px;
 }
 
+
+
 @media (max-width: 900px) {
   .open-source-section {
     display: flex;
@@ -291,6 +294,7 @@ footer p a:hover {
 
   .open-source-text {
     margin-left: 0;
+    text-align: center;
   }
 
   .open-source-text h3 {
@@ -394,5 +398,15 @@ footer p a:hover {
 
   .javascriptmas h3 {
     padding-top: 10px;
+  }
+}
+
+@media (min-width: 760px) {
+  .open-source-section {
+    align-items: center;
+  }
+  
+  .open-source-text {
+    text-align: left;
   }
 }
