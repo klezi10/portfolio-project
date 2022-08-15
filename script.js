@@ -18,12 +18,10 @@ navbar.innerHTML = `
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="index.html" title="Homepage"
-              >Home</a
-            >
             <a class="nav-link" href="/about.html" title="About Klesta"
               >About me</a
             >
+            <a class="nav-link" href="https://klescode.hashnode.dev/" target="_blank" title="Klesta's Blog">Blog</a>
             <a class="nav-link" href="/work.html" title="Klesta's Work">Work</a>
             <a
               class="nav-link"
