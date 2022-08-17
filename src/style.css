@@ -167,6 +167,10 @@ h3 .fas {
   text-align: left;
 }
 
+.open-source-text .btn {
+  display: inline;
+}
+
 .javascriptmas {
   padding: 0 240px;
 }
