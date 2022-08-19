@@ -133,8 +133,11 @@ h3 .fas {
 }
 
 .me-photo {
-  border-radius: 11px;
+  width: 450px;
+  max-width: 60%;
+  border-radius: 50%;
   margin-top: 50px;
+  transform: translateX(30%);
 }
 
 .content-container h3 {
@@ -353,9 +356,9 @@ footer p a:hover {
     font-weight: bold;
   }
 
-  /* .me-photo {
-    margin-top: 50px;
-  } */
+  .me-photo {
+    transform: translateX(0%);
+  }
 
   .content-container {
     text-align: center;
