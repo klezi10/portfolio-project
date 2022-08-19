@@ -34,7 +34,6 @@ h4 {
 
 p {
   font-weight: normal;
-  /* line-height: 30px; */
   font-size: 16px;
 }
 
@@ -159,8 +158,6 @@ h3 .fas {
   font-weight: bold;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  /* max-width: 500px; */
-  /* text-align: center; */
   padding: 30px 0;
   margin-top: 50px;
 }
@@ -328,7 +325,6 @@ footer p a:hover {
   .hero {
     background: var(--secondary-color);
     text-align: center;
-    /* padding: 90px 10px; */
   }
 
   .hero h2 {
@@ -368,18 +364,9 @@ footer p a:hover {
     font-size: 45px;
   }
 
-  /* .content-container p {
-    padding-bottom: 30px;
-  } */
-
   footer p {
     font-size: smaller;
   }
-
-  /* footer .social-links a {
-    font-size: 18px;
-    padding: 10px 14px;
-  } */
 
   .projects .row {
     margin-bottom: 0;
@@ -402,19 +389,6 @@ footer p a:hover {
   .form #textarea {
     text-align: center;
   }
-
-  .javascriptmas {
-    padding: 0 20px;
-  }
-
-  .javascriptmas h1 {
-    text-align: center;
-  }
-
-  .javascriptmas h3 {
-    padding-top: 10px;
-  }
-  
 }
 
 @media (min-width: 760px) {
