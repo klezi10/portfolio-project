@@ -1,6 +1,6 @@
 // =====================================NAVBAR=============
 
-const navbar = document.querySelector('.navbar');
+const navbar = document.querySelector(".navbar");
 
 navbar.innerHTML = `
 <div class="container">
@@ -35,10 +35,10 @@ navbar.innerHTML = `
 `;
 
 function highlightCurrentURL() {
-  let a = document.querySelector('#navbarNav').getElementsByTagName('a');
+  let a = document.querySelector("#navbarNav").getElementsByTagName("a");
   for (let i = 0; i < a.length; i++) {
-    if (a[i].href.split('#')[0] == document.location.href.split('#')[0]) {
-      a[i].className = 'nav-link active';
+    if (a[i].href.split("#")[0] == document.location.href.split("#")[0]) {
+      a[i].className = "nav-link active";
     }
   }
 }
@@ -49,7 +49,7 @@ window.onload = function () {
 
 // ====== FOOTER =====
 
-const footer = document.createElement('footer');
+const footer = document.createElement("footer");
 footer.innerHTML = `
 <div class="contact-box justify-content-between d-none d-lg-flex">
         <div>
@@ -78,9 +78,9 @@ footer.innerHTML = `
             target="_blank"
             title="LinkedIn Profile"
             ><i class="fab fa-linkedin"></i></i></a>
-          <a href="mailto:kles.code@gmail.com" title="Email Klesta"
-            ><i class="fas fa-at"></i
-          ></a>
+            
+          <a href="https://twitter.com/klesand" target="_blank" title="Twitter Profile"
+            ><i class="fab fa-twitter"></i></a>
         </div>
         <p class="text-center">
           Hosted on AWS |
@@ -93,4 +93,4 @@ footer.innerHTML = `
         </p>
       </div>
 `;
-document.querySelector('.footer').append(footer);
+document.querySelector(".footer").append(footer);
