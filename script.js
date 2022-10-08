@@ -1,6 +1,6 @@
 // =====================================NAVBAR=============
 
-const navbar = document.querySelector(".navbar");
+const navbar = document.querySelector('.navbar');
 
 navbar.innerHTML = `
 <div class="container">
@@ -23,33 +23,37 @@ navbar.innerHTML = `
             >
             <a class="nav-link" href="https://klescode.hashnode.dev/" target="_blank" title="Klesta's Blog">Blog</a>
             <a class="nav-link" href="/work.html" title="Klesta's Work">Work</a>
-            <a
-              class="nav-link"
-              href="/contact.html"
-              title="Contact Klesta"
-              >Contact me</a
-            >
+
           </div>
         </div>
       </div>
 `;
 
+{
+	/* <a
+class="nav-link"
+href="/contact.html"
+title="Contact Klesta"
+>Contact me</a
+> */
+}
+
 function highlightCurrentURL() {
-  let a = document.querySelector("#navbarNav").getElementsByTagName("a");
-  for (let i = 0; i < a.length; i++) {
-    if (a[i].href.split("#")[0] == document.location.href.split("#")[0]) {
-      a[i].className = "nav-link active";
-    }
-  }
+	let a = document.querySelector('#navbarNav').getElementsByTagName('a');
+	for (let i = 0; i < a.length; i++) {
+		if (a[i].href.split('#')[0] == document.location.href.split('#')[0]) {
+			a[i].className = 'nav-link active';
+		}
+	}
 }
 
 window.onload = function () {
-  highlightCurrentURL();
+	highlightCurrentURL();
 };
 
 // ====== FOOTER =====
 
-const footer = document.createElement("footer");
+const footer = document.createElement('footer');
 footer.innerHTML = `
 <div class="contact-box justify-content-between d-none d-lg-flex">
         <div>
@@ -93,4 +97,4 @@ footer.innerHTML = `
         </p>
       </div>
 `;
-document.querySelector(".footer").append(footer);
+document.querySelector('.footer').append(footer);
